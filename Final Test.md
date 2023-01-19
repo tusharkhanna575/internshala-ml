@@ -1,7 +1,8 @@
 <h2 align="center">Total Questions : 30 <br>           
 Correct Answers : 26 <br>            
 Incorrect Answers : 04 <br>                             
-Marks : 56/66</h3>
+Marks : 56/66</h2>
+<h1 align="center">Score : 85%</h1>
 <br>
 
 ## Question 1 
