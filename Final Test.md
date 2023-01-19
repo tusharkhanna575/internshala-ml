@@ -7,8 +7,7 @@ Marks : 56/66</h2>
 
 ## Question 1 
 <p align="right">Multiple Choice Question (2/2 Marks) </p>
-Assuming everything else remains the same, which of the following is the right statement about the predictions fror
-the decision tree in comparison with predictions from random forest?
+Assuming everything else remains the same, which of the following is the right statement about the predictions from the decision tree in comparison with predictions from random forest?
 
 - [ ] A. Lower Variance, Lower Bias
 - [ ] B. Lower Variance, Higher Bias
@@ -20,8 +19,7 @@ Correct Answer : D
 Your Answer : D
 
 **Explanation :-**  
-The predicted values in decision trees have low Bias but high variance when compared to random forests. This is
-because random forest attempts to reduce variance by bootstrap aggregation.
+The predicted values in decision trees have low Bias but high variance when compared to random forests. This is because random forest attempts to reduce variance by bootstrap aggregation.
 <br>
 
 ## Question 2
@@ -39,3 +37,23 @@ Your answer : A
 
 **Explanation :-**    
 The index -1 represents the last element, as the stopping condition for any index is that "STOP -1" the last element is not included.
+  
+## Question 3     
+<p align="right">Multiple choice question (4/4 Marks) </p>  
+To reduce under fitting of a random forest model, which of the following methods can be used?   
+
+- [ ] A. Increase minimum sample leat value 
+- [x] B.Increase depth of trees   
+- [ ] C. Increase the value of minimum samples to split 
+- [ ] D. Increase the number of samples   
+
+**Solution :-**   
+Correct answer : B    
+Your answer : B 
+
+**Explanation :-**    
+Only option B is correct, because Increasing the number of samples for a leaf will reduce the depth of a tree, indirectly
+increasing underfitting.  
+B: Increasing depth will definitely decrease and help reduce underfitting.  
+C: Increasing the number of samples considered to split will have no effect, as the same information will be given to the
+model.  
