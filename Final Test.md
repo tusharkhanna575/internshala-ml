@@ -502,7 +502,7 @@ Which of the following is true about residuals?
 Correct answer : A    
 Your answer : A
 
-**Explanation :- **     
+**Explanation :-**     
 Residual is the vertical distance between a data point and the regression line. In other words, the residual is the error that isn't explained by the regression line. Lower the residual, better the model is fitting in our data.
 
 
@@ -520,5 +520,5 @@ When is Manhattan distance preferred over Euclidean distance?
 Correct answer : B, D   
 Your answer : B, D      
 
-**Explanation :-**
+**Explanation :-**        
 Manhattan distance is preferred when large numbers of features of unknown quality are used for modeling.
