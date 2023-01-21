@@ -281,3 +281,38 @@ Your answer : A
 **Explanation :-**    
 You can think that the number of views of articles is the continuous target variable which falls under the regression problem. So, mean squared error will be used as an evaluation metrics.
 
+
+
+## Question 17
+<p align="right">Multiple Choice Question (4/4 Marks)</p>
+Let's say, you are working with categorical feature(s) and you have not looked at the distribution of the categorical variable in the test data. You want to apply one hot encoding (OHE) on the categorical feature(s). What challenges you may face if you have applied OHE on a categorical variable of train dataset?
+
+- [x] A. All categories of categorical variables are not present in the test dataset.
+- [x] B. Frequency distribution of categories is different in the train as compared to the test dataset.
+- [ ] C. Train and test always have the same distribution.
+
+**Solution :-**     
+Correct answer : A, B     
+Your answer A, B    
+
+**Explanation :-**    
+The OHE will fail to encode the categories which are present in test but not in train, so it could be one of the main challenges while applying OHE. The challenge given in option B is also true as you need to be more careful while applying OHE if frequency distribution isn't the same in train and test.
+
+
+## Question 18
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
+Adding a non-important feature to a linear regression model may result in:
+
+- [x] A. Increase in R-square
+- [ ] B. Decrease in R-square
+
+**Solution :-**     
+Correct answer: A     
+Your answer: A  
+
+**Explanation :-**    
+After adding a feature in feature space, whether that feature is important or unimportant features the R-squared always increases.
+
+
+## Question 19
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
