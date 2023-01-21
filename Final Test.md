@@ -107,3 +107,10 @@ Our answer : A
 
 **Explanation :-**      
 In SGD for each iteration you cho0se the batch which generally contains the random sample of data But in case of GD each iteration contains all of the training observations. 
+
+
+
+## Question 7<br>
+<p align="right">Multiple Choice Question (1/1 Marks)</p>   
+Which of the following is a decision boundary of the decision tree?<br>
+![image](https://user-images.githubusercontent.com/74552274/213859741-77843f20-a1f8-4b44-81aa-dfb8e955e0e9.png)
