@@ -42,18 +42,51 @@ The index -1 represents the last element, as the stopping condition for any inde
 <p align="right">Multiple choice question (4/4 Marks) </p>  
 To reduce under fitting of a random forest model, which of the following methods can be used?   
 
-- [ ] A. Increase minimum sample leat value 
-- [x] B.Increase depth of trees   
-- [ ] C. Increase the value of minimum samples to split 
-- [ ] D. Increase the number of samples   
+- [ ] A. Increase minimum sample leat value   
+- [x] B.Increase depth of trees     
+- [ ] C. Increase the value of minimum samples to split   
+- [ ] D. Increase the number of samples     
 
 **Solution :-**   
 Correct answer : B    
 Your answer : B 
 
 **Explanation :-**    
-Only option B is correct, because Increasing the number of samples for a leaf will reduce the depth of a tree, indirectly
-increasing underfitting.  
+Only option B is correct, because Increasing the number of samples for a leaf will reduce the depth of a tree, indirectly increasing underfitting.  
 B: Increasing depth will definitely decrease and help reduce underfitting.  
 C: Increasing the number of samples considered to split will have no effect, as the same information will be given to the
 model.  
+
+
+## Question 4 
+<p align="right">Multiple Choice Question (4/4 Marks)</p>   
+In a random forest, which of the following is randomly selected?  
+
+- [ ] A. Number of decision trees.      
+- [x] B. Features to be taken into account when building a tree.    
+- [x] C. Samples to be given to train individual tree in a forest.    
+
+**Solution :-**   
+Correct answer : B, C 
+Your answer : B, C    
+
+**Explanation :-**  
+Option A is incorrect because, number of trees has to be decided when building a tree. It is not random.  
+
+## Question 5<br>
+<p align="right">Multiple Choice Question (2/2 Marks)</p><br>
+Which of the following are the disadvantages of the decision tree algorithm?      
+
+- [ ] A. Decision tree is not easy to interpret   
+- [x] B. Decision tree is not a very stable algorithm     
+- [x] C. Decision tree will overfit the data easily if it perfectly memorizes it    
+- [ ] D. Decision tree does not have any disadvantages    
+
+**Solution :-**<br>
+Correct answer : B, C<br>
+Your answer : B, C<br>
+
+**Explanation :-**<br>
+Option A is false, as decision tree are very easy to interpret.<br>
+Option B is true, as decision tree are high unstable models.<br>
+Option C is true, as the decision tree also tries to memorize noise.<br>
