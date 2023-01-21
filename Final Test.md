@@ -170,10 +170,11 @@ A node can be split on a feature, as long as it gives information after the spli
 
 ## Question 10
 <p align="right">Arrange in order (2/2 Marks)</p>
-What is the right sequence of steps while building a random forest? <br>
-1. Create bootstrap samples.    
-2. Build a decision tree on every sample.       
-3. Use feature sampling for each split in the decision tree.      
+What is the right sequence of steps while building a random forest?   
+
+1. Create bootstrap samples.  
+2. Build a decision tree on every sample.   
+3. Use feature sampling for each split in the decision tree.  
 4. Aggregate all decision trees.    
 
 **Solution :-**
