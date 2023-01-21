@@ -193,3 +193,41 @@ Which of the following corresponds to the properties of clusters?
 **Solution :-**     
 Correct answer : B, C   
 Your answer : B, C    
+
+
+## Question 12
+<p align="right">Multiple Choice Question (4/4 Marks)</p>
+If two variables V1 and V2, are used for clustering. Which of the following are true for K means clustering with k=3?   
+
+**Statement 1:** if v1 and v2 have a correlation of 1, the cluster centroids will be in a straight line.  
+**Statement 2:** if v1 and v2 have a correlation of 0, the cluster centroids will be in a straight line.  
+
+- [x] A. Statement 1
+- [ ] B. Statement 2
+- [ ] C. Both the statements are incorrect
+
+**Solution :-**   
+Correct answer : A    
+Your answer : A   
+
+**Explanation :-**  
+If the correlation between the variables V1 and V2 is 1, then all the data points will be in a straight line. Hence, all the three cluster centroids will form a straight line as well. 
+
+
+## Ouestion 13
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
+Which of the following hyper parameter (s), when increased may cause random forest to over fit the data?  
+
+- [ ] A. Number of trees
+- [x] B. Depth of tree
+- [ ] C. Learning rate
+
+**Solution :-**     
+Correct answer : B  
+Your answer: B    
+
+**Explanation :-**    
+Usually, if we increase the depth of the tree it will cause overfitting. Learning rate is not a hyperparameter in random forest. Increase in the number of trees will cause under fitting.
+
+
+## Question 14
