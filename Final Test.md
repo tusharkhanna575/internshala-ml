@@ -74,7 +74,7 @@ Your answer : B, C
 Option A is incorrect because, number of trees has to be decided when building a tree. It is not random.  
 
 ## Question 5<br>
-<p align="right">Multiple Choice Question (2/2 Marks)</p><br>
+<p align="right">Multiple Choice Question (2/2 Marks)</p>     
 Which of the following are the disadvantages of the decision tree algorithm?      
 
 - [ ] A. Decision tree is not easy to interpret   
@@ -94,7 +94,7 @@ Option C is true, as the decision tree also tries to memorize noise.<br>
 
 
 ## Question 6<br>
-<p align="right">Multiple Choice Question (4/4 Marks)</p><br>
+<p align="right">Multiple Choice Question (4/4 Marks)</p>     
 Which of the following statement (s) is/are true for Gradient Descent (GD) and Stochastic Gradient Descent (SGD)?   
 
 - [x] A. In GD and seD, you update a set of parameters in an iterative manner to minimize the error function.  
