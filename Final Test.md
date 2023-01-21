@@ -473,4 +473,52 @@ Putting the value of zero in logit function (1/(1+exp(-X) will give us the value
 
 ## Question 28
 <p align="right">Multiple Choice Question (1/1 Marks)</p>
+Which of the following assumptions are not required by the LR (Logistic Regression)? 
 
+- [ ] A. Independence
+- [x] B. Linearity
+- [x] C. Normality
+- [x] D. Homogenity of variance
+- [ ] E. Non-multicollinearity
+
+**Solution :-**     
+Correct answer: B, C, D   
+Your answer : B, C, D     
+
+**Explanation :-**      
+Logistic regression doesn't need to comply with the linearity, normality, and homogeneity of variance which are the assumptions of linear regression.
+
+
+## Question 29
+<p align="right">Multiple Choice Question (2/2 Marks)</p>
+Which of the following is true about residuals?
+
+- [x] A. Lower is better
+- [ ] B. Higher is better
+- [ ] C. Depends on the situation
+- [ ] D. None of the above
+
+**Solution :-**       
+Correct answer : A    
+Your answer : A
+
+**Explanation :- **     
+Residual is the vertical distance between a data point and the regression line. In other words, the residual is the error that isn't explained by the regression line. Lower the residual, better the model is fitting in our data.
+
+
+
+## Question 30
+<p align="right">Multiple Choice Question (2/2 Marks)</p>
+When is Manhattan distance preferred over Euclidean distance?
+
+- [ ] A. When the number of features are too small.
+- [x] B. When the number of features are too large.
+- [ ] C. When the features are carefully chosen.
+- [x] D. When just about any feature is used for modelling.
+
+**Solution :-**     
+Correct answer : B, D   
+Your answer : B, D      
+
+**Explanation :-**
+Manhattan distance is preferred when large numbers of features of unknown quality are used for modeling.
