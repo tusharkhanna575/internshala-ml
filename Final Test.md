@@ -99,7 +99,7 @@ Which of the following statement (s) is/are true for Gradient Descent (GD) and S
 
 - [x] A. In GD and seD, you update a set of parameters in an iterative manner to minimize the error function.  
 - [ ] B. In SGD, you have to run through all the samples in your training set for a single update of a parameter in each iteration.   
-- [ ] In GD, you either use the entire data or a subset of training data to update a parameter in each iteration  
+- [ ] C. In GD, you either use the entire data or a subset of training data to update a parameter in each iteration  
 
 **Solution :-**     
 Correct answer : A    
