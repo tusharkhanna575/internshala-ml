@@ -231,3 +231,53 @@ Usually, if we increase the depth of the tree it will cause overfitting. Learnin
 
 
 ## Question 14
+<p align="right">Multiple Choice Question (4/4 Marks)</p>
+Which of the following can be applied to get good results for the K-means algorithm corresponding to global minima? 
+
+- [x] A. Try to run algorithm for different centroid initialization
+- [x] B. Adjust number of iteration
+- [x] C. Find out the optimal number of clusters
+
+**Solution :-**       
+Correct answer : A, B, C      
+Your answer : A, B, C
+
+**Explanation :-**  
+All of these are standard practices that are used in order to obtain good clustering results.
+
+
+## Question 15
+<p align="right">Multiple Choice Question (0/4 Marks)</p>
+In case of data points that are spread unevenly or have variable density what steps could be taken to form meaningful clusters?
+
+- [x] A.Pertorm feature transtormation to change/even-out the density ot the points.
+- [x] B.Form a higher number of clusters and then merge the clusters which are very close together to form a supercluster.
+- [x] C. Remove the observations causing uneven density of data points.
+- [x] D. Impute the values to torm unitorm density of data points.
+
+**Solution :-**       
+Correct answer : A, B     
+Your answer : A, B, C, D  
+
+**Explanation :-**      
+When the data points are uneven in spread/density, feature transformation can be used to make them uniform in density to have meaningful clusters. Moreover, the smaller clusters too close to each other can be merged to form a supercluster, this method helps in clustering where the patch of data is sparse compared to other regions.
+
+
+## Question 16
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
+Imagine, you are working with XYZ and you want to develop a machine learning algorithm which predicts the number of views on the articles.        
+
+Your analysis is based on features like author name, number of articles written by the same author on XYZ in the past and a few other features. Which of the following evaluation metrics would you choose in that case?
+
+- [x] A. Mean Square Error
+- [ ] B. Accuracy
+- [ ] C. F1 Score
+- [ ] D. Log loss
+
+**Solution :-**     
+Correct answer : A      
+Your answer : A
+
+**Explanation :-**    
+You can think that the number of views of articles is the continuous target variable which falls under the regression problem. So, mean squared error will be used as an evaluation metrics.
+
