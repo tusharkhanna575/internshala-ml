@@ -316,3 +316,52 @@ After adding a feature in feature space, whether that feature is important or un
 
 ## Question 19
 <p align="right">Multiple Choice Question (1/1 Marks)</p>
+Which of the following techniques would perform better for reducing dimensions of a data set?
+
+- [x] A. Removing columns which have too many missing values
+- [ ] B. Removing columns which have high variance in data
+- [ ] C. Removing columns with dissimilar data trends
+- [ ] D. None of the above
+
+**Solution :-**   
+Correct answer: A     
+Your answer : A     
+
+**Explanation :-**    
+If a column has too many missing values, (say 99%) then we can remove such columns.
+
+
+
+## Question 20
+<p align="right">Multiple Choice Question (0/1 Marks)</p>
+Why do we perform exploratory data analysis?
+
+- [x] A. To be able to draw valuable insights from the data.
+- [ ] B. To interpret the ML model.
+- [x] C. Sets stage for meaningful feature engineering
+- [ ] D. Helps in advanced missing value imputation.
+
+**Solution :-**     
+Correct answer : A, C, D      
+Your answer: A, C   
+
+
+## Question 21
+<p align="right">Multiple Choice Question (0/4 Marks)</p>
+Which among the following would be the most preferred approach, considering that we have to minimize the number of features in a model while retaining as much model performance as possible. (compute power is restricted/limíted)?
+
+- [x] A. Forward selection
+- [ ] B. Backward elimination
+- [ ] C. Randomly handpicking features
+- [ ] D. All of above are equally preffered
+
+**Solution :-**     
+Correct answer : B    
+Your answer: A    
+
+**Explanation :-**      
+Backward selection is most preferred as it Will require least number of iterations to to converge to the optimum solution.
+
+
+## Question 22
+<p align="right">Multiple Choice Question (4/4 Marks)</p>
