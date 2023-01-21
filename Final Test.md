@@ -360,8 +360,50 @@ Correct answer : B
 Your answer: A    
 
 **Explanation :-**      
-Backward selection is most preferred as it Will require least number of iterations to to converge to the optimum solution.
+Backward selection is most preferred as it will require least number of iterations to to converge to the optimum solution.
 
 
 ## Question 22
 <p align="right">Multiple Choice Question (4/4 Marks)</p>
+Suppose, you are given three variables X, Y and Z. The Pearson correlation coefficients for (X, Y), (Y, Z) and (X, Z) are C1, C2& C3 respectively.
+
+Now, you have added 2 in all values of X (i.enew values become X+2), subtracted 2 from all values of Y (i.e. new values are Y-2) and Z remains the same. The new coefficients for (X,Y), (Y,Z) and (X,Z) are given by D1, D2 & D3 respectively.
+
+How do the values of D1, D2 & D3 relate to C1, c2 & C3?
+
+- [ ] A. D1= C1, D2 < C2, D3 > C3
+- [ ] B. D1 C1, D2> c2, D3 > C3
+- [ ] C. D1 = C1, D2 > C2, D3 < C3
+- [x] D. D1- C1, D2 = C2, D3 = C3
+
+**Solution :-**   
+Correct answer : D    
+Your answer : D     
+
+**Explanation :-**      
+Correlation between the features won't change if you add or subtract a value in the features.
+
+
+
+## Question 23
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
+Imagine, you are solving a classification problem with a highly imbalanced class. The majority class is observed 99% of times in the training data.
+
+Your model has 99% accuracy after taking the predictions on test data. Which of the following is true in such a case?
+
+- [x] A Accuracy metric is not a good idea for imbalanced class problems.
+- [ ] B. Accuracy metric is a good idea tor imbalanced class problems.
+- [x] C. Precision and recall metrics are good for imbalanced class problems.
+- [ ] D. Precision and recall metrics arent good for imbalanced class problems.
+
+**Solution :-**     
+Correct answer : A, C    
+Your answer : A, C    
+
+**Explanation :-**
+The data iS highly imbalanced, therefore accuracy is not a good metric. Moreover, we need to use precision, recall or F1-score which considers the skewness of the data.
+
+
+
+## Question 24
+<p align="right">Multiple Choice Question (0/1 Marks)</p>
