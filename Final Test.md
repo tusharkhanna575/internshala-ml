@@ -90,3 +90,20 @@ Your answer : B, C<br>
 Option A is false, as decision tree are very easy to interpret.<br>
 Option B is true, as decision tree are high unstable models.<br>
 Option C is true, as the decision tree also tries to memorize noise.<br>
+
+
+
+## Question 6<br>
+<p align="right">Multiple Choice Question (4/4 Marks)</p><br>
+Which of the following statement (s) is/are true for Gradient Descent (GD) and Stochastic Gradient Descent (SGD)?   
+
+- [x] A. In GD and seD, you update a set of parameters in an iterative manner to minimize the error function.  
+- [ ] B. In SGD, you have to run through all the samples in your training set for a single update of a parameter in each iteration.   
+- [ ] In GD, you either use the entire data or a subset of training data to update a parameter in each iteration  
+
+**Solution :-**     
+Correct answer : A    
+Our answer : A
+
+**Explanation :-**      
+In SGD for each iteration you cho0se the batch which generally contains the random sample of data But in case of GD each iteration contains all of the training observations. 
