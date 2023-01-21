@@ -407,3 +407,36 @@ The data iS highly imbalanced, therefore accuracy is not a good metric. Moreover
 
 ## Question 24
 <p align="right">Multiple Choice Question (0/1 Marks)</p>
+With many groups in one categorical variable which is the preferred way to deal with it?
+
+- [ ] A. Creating dummy
+- [ ] B. Binning
+- [x] C. One Hot encoding
+- [ ] D. Dropping those variables
+
+**Solution :-**   
+Correct answer : B    
+Your answer : C   
+
+**Explanation :-**
+The bin-counting scheme is a useful scheme for dealing with categorical variables having many categories.
+
+
+## Question 25
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
+Binning can be used only for:
+
+- [x] A. Numerical variables
+- [x] B.Categorical variables
+- [ ] C. None of the abovee
+
+**Solution :-**     
+Correct answer : A, B   
+Your answer: A, B     
+
+**Explanation :-**
+The bin-counting scheme can be implemented in case we have many categories for categorical variables because creating dummy can cause a curse of dimensionality. A numerical bin is preferred for getting insights at a broad level.
+
+
+## Question 26
+<p align="right">Multiple Choice Question (1/2 Marks)</p>
