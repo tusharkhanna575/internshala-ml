@@ -126,3 +126,33 @@ Your answer: C
 
 **Explanation :-**    
 Decision boundaries of decision trees are always perpendicular to the X and Y axis.
+
+
+
+## Question 8<br>
+<p align="right">Multiple Choice Question (1/1 Marks)</p>     
+Given 1000 observations, minimum observation required to split a node equals to 200 and minimum leaf size equals to 300 then what could be the maximum depth of a decision tree?        
+
+- [ ] A. 1    
+- [x] B. 2    
+- [ ] C. 3    
+- [ ] D. 4  
+
+**Solution :-**   
+Correct answer: B     
+Your answer : B 
+
+**Explanation :-**  
+The leaf nodes will be as follows for minimum observation to split is 200 and minimum leaf size is 300.   
+![image](https://user-images.githubusercontent.com/74552274/213860181-79a6eb8a-5f85-4d5f-b5f5-f1e26f0c5e8c.png)       
+So only after 2 splits, the tree is created. Therefore, depth is 2.
+
+
+
+## Question 9<br>
+<p align="right">Multiple Choice Question (2/2 Marks)</p>
+Consider a classification tree for whether a person watches 'Game of Thrones' based on features like age, gender, qualification, and salary. Is it possible to have the following leaf node?    
+
+![image](https://user-images.githubusercontent.com/74552274/213860399-531624c8-281b-4f1c-a021-ae518bfe9bc7.png)     
+
+
