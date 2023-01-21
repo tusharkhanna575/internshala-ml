@@ -29,7 +29,7 @@ Suppose list1 is [2, 33, 222, 14, 251]. What is list1[:-1]?
 - [x] A. [2, 33, 222, 14]
 - [ ] B. Error
 - [ ] C. 25
-- [ ] D.[25, 14, 222, 33, 21]
+- [ ] D. [25, 14, 222, 33, 21]
 
 **Solution :-**   
 Correct answer : A  
@@ -155,4 +155,40 @@ Consider a classification tree for whether a person watches 'Game of Thrones' ba
 
 ![image](https://user-images.githubusercontent.com/74552274/213860399-531624c8-281b-4f1c-a021-ae518bfe9bc7.png)     
 
+- [x] A. Yes
+- [ ] B. No
+- [ ] C. Can't say
+- [ ] D. Incomplete Data
 
+**Solution :-**       
+Correct answer : A    
+Your answer : A     
+
+**Explanation :-**  
+A node can be split on a feature, as long as it gives information after the split. So even though the above split does not reduce the classification error, it improves the Gini index and the cross-entropy.
+
+
+## Question 10
+<p align="right">Arrange in order (2/2 Marks)</p>
+What is the right sequence of steps while building a random forest? <br>
+1. Create bootstrap samples.    
+2. Build a decision tree on every sample.       
+3. Use feature sampling for each split in the decision tree.      
+4. Aggregate all decision trees.    
+
+**Solution :-**
+That's right!
+
+
+## Question 11
+<p align="right">Multiple Choice Question (2/2 Marks)</p>
+Which of the following corresponds to the properties of clusters?
+
+- [ ] A. Points within the same cluster should be as different from each other as possible.       
+- [x] B. Points within the same cluster should be as similar to each other as possible.       
+- [x] C. Points in different clusters should be as different from each other as possible.       
+- [ ] D. Points in ditferent clusters should be as Similar to each other as possible.         
+
+**Solution :-**     
+Correct answer : B, C   
+Your answer : B, C    
