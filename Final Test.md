@@ -115,3 +115,14 @@ In SGD for each iteration you cho0se the batch which generally contains the rand
 Which of the following is a decision boundary of the decision tree? 
 
 ![image](https://user-images.githubusercontent.com/74552274/213859741-77843f20-a1f8-4b44-81aa-dfb8e955e0e9.png)
+- [ ] A. B      
+- [ ] B. A      
+- [x] C. D    
+- [ ] D. C    
+
+**Solution :-**     
+Correct answer : C    
+Your answer: C   
+
+**Explanation :-**    
+Decision boundaries of decision trees are always perpendicular to the X and Y axis.
