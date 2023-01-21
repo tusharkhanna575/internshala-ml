@@ -439,4 +439,38 @@ The bin-counting scheme can be implemented in case we have many categories for c
 
 
 ## Question 26
-<p align="right">Multiple Choice Question (1/2 Marks)</p>
+<p align="right">Multiple Choice Question (2/2 Marks)</p>
+In the context of a merge function 'how' parameter selects the right choices?
+
+- [x] A. left: use only keys from the left frame.
+- [x] B. right: use only keys from the right frame
+- [x] C. outer: use union of keys from both frames.
+- [x] D. inner: use intersection of keys from both frames
+
+**Solution :-**     
+Correct answer : A, B, C, D   
+Your answer : A, B, C, D    
+
+
+## Question 27
+<p align="right">Multiple Choice Question (2/2 Marks)</p>
+A total predicted logit of O can be transformed to a probability of
+
+- [ ] A. 0
+- [x] B. 0.5
+- [ ] C. 1
+- [ ] D. 0.75
+
+**Solution :-**   
+Correct answer : B    
+Your answer : B   
+
+**Explanation :-**    
+Putting the value of zero in logit function (1/(1+exp(-X) will give us the value 0.5 which can be confirmed from the figure as well.
+
+![image](https://user-images.githubusercontent.com/74552274/213868087-70ce46dd-dc12-4d88-9142-3ec6a87d4e92.png)
+
+
+## Question 28
+<p align="right">Multiple Choice Question (1/1 Marks)</p>
+
